@@ -1,0 +1,58 @@
+/* GENERALI */
+*{
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+.float_left {
+  float: left;
+}
+.float_right {
+  float: right;
+}
+.clearfix:after {
+  content: "";
+  display: table;
+  clear: both;
+}
+
+.order_list > li {
+  display: inline-block;
+  margin: 10px;
+}
+ul li a{
+  text-decoration: none;
+  color: grey;
+  padding: 5px;
+}
+ul li a:hover{
+  color: black;
+}
+
+.active {
+  display: none;
+}
+.dropdown {
+  border: 1px solid black;
+  list-style: none;
+  position: absolute;
+}
+
+
+
+
+
+
+/* NAV */
+
+#container {
+  height: 80px;
+  width: 100vw;
+}
+
+nav {
+  height: 100%;
+  width: 70%;
+  margin: 0 200px;
+}
